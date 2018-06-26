@@ -1,21 +1,40 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import PlayingCard from "./components/PlayingCard";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import playingcards from "./playingcards.json";
 import './App.css';
 
 class App extends Component {
+
+  state = {
+    playingcards
+  };
+
+  removeCard = id => {
+    const playingcards = this.state.playingcards.filter(playingcard => playingcard.id !== id);
+    this.setState({playingcards});
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Wrapper>
+        <Title>Playing Card Memorization Training Game </Title>
+        {this.state.playingcards.map(playingcard =>(
+          <PlayingCard
+            removeCard={this.removeCard}
+            id={playingcard.id}
+            key={playingcard.id}
+            name={playingcard.name}
+            image={playingcard.image}
+            value={playingcard.value}
+            />
+        ))}
+        </Wrapper>
     );
   }
 }
 
-export default App;
+export default App; 
+
+  

@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Two of diamonds",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Playing_card_diamond_2.svg",
+      "value": "2"
+    },
+    {
+      "id": 2,
+      "name": "Two of hearts",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Playing_card_heart_2.svg",
+      "value": "2"
+    },
+    {
+      "id": 3,
+      "name": "Three of hearts",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Playing_card_heart_3.svg",
+      "value": "3"
+    },
+    {
+      "id": 4,
+      "name": "Three of diamonds",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Playing_card_diamond_3.svg",
+      "value": "3"
+    },
+    {
+      "id": 5,
+      "name": "Five of hearts",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Playing_card_heart_5.svg",
+      "value": "5"
+    },
+    {
+      "id": 6,
+      "name": "Seven of spades",
+      "image": "https://en.wikipedia.org/wiki/Standard_52-card_deck#/media/File:Playing_card_spade_7.svg",
+      "value": "7"
+    },
+    {
+      "id": 7,
+      "name": "Six of hearts",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Playing_card_heart_6.svg",
+      "value": "6"
+    },
+    {
+      "id": 8,
+      "name": "Four of Diamonds",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Playing_card_diamond_4.svg",
+      "value": "4"
+    },
+    {
+      "id": 9,
+      "name": "Ace of Spades",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Playing_card_spade_A.svg",
+      "value": "14 or 1"
+    },
+    {
+      "id": 10,
+      "name": "King of Hearts",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Playing_card_heart_K.svg",
+      "value": "13"
+    },
+    {
+      "id": 11,
+      "name": "Queen of Diamonds",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Playing_card_diamond_Q.svg",
+      "value": "12"
+    },
+    {
+      "id": 12,
+      "name": "Nine of Clubs",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/Playing_card_club_9.svg",
+      "value": "9"
+    }
+  ]
+  
