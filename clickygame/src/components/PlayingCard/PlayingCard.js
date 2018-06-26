@@ -3,8 +3,10 @@ import "./PlayingCard.css";
 
 const PlayingCard = props => (
   <div className="card">
-    <div className="img-container">
-      <img alt={props.name} src={props.image} />
+  <div className="img-container" onClick={() =>{
+      return props.clicked(props.id);
+  }}>
+      <img alt={props.id} src={props.image} />
     </div>
     <div className="content">
       <ul>
@@ -12,7 +14,7 @@ const PlayingCard = props => (
           <strong>Name:</strong> {props.name}
         </li>
         <li>
-          <strong>Value:</strong> {props.occupation}
+          <strong>Value:</strong> {props.value}
         </li>
       </ul>
     </div>
