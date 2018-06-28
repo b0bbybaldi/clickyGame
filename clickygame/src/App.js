@@ -66,7 +66,7 @@ class App extends Component {
        
         <h2>High Score:</h2>
         {highScore}
-        
+        <Wrapper>
         {this.state.playingcards.map(playingcard =>(
           <PlayingCard
             removeCard={this.removeCard}
@@ -78,6 +78,7 @@ class App extends Component {
             clicked={this.clicked}
             />
         ))}
+        </Wrapper>
         </Wrapper>
     );
   }
