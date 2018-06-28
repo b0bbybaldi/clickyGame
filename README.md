@@ -1,8 +1,5 @@
 # clickyGame
-
 Memorization game to help card players improve their skills before their next trip to Vegas or visit to Grandpa's with a simple click game. 
-
-BLACKPINK has made their long anticipated return to the KPOP scene and have set the world on fire (by breaking all the girl group records). In celebration, I have made a simple click game.
 
 ### Running the App
 If you would like to run this from your command line, then you would need to have node and react installed in your computer.
