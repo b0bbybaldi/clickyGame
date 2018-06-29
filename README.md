@@ -6,7 +6,7 @@ If you would like to run this from your command line, then you would need to hav
 
 If you do so, then you should follow react documentation for installing packages, creating the app, and running it.
 
-You can also run the app from your browser on the heroku version [here](https://b0bbybaldi.github.io/clickyGame/)
+You can also run the app from your browser on the heroku version [here](https://afternoon-coast-10061.herokuapp.com/)
 
 ## Built With 
 * HTML& CSS
